@@ -12,11 +12,17 @@ def setup():
     size(600,400)
 def draw():
     global bx,by,bxs,bys,rx,ry,rx2,ry2
+    fill(39,157,77)
     rect(10,10,550,300)
+    fill(224,9,88)
     rect(10,10,275,300)
+    fill(0,0,100)
     triangle(255,310,315,310,285,280)
+    fill(0,0,100)
     triangle(255,10,315,10,285,40)
+    fill(58,250,98)
     rect(rx,ry,20,100)
+    fill(13,255,100)
     rect(rx2,ry2,20,100)
     ellipse(bx,by,15,15)
     bx+=bxs
