@@ -8,4 +8,5 @@ P.S. If I don't forget him ofcors:).
 
 
 
-iIt's beta3 and now it's more coll.
+It's beta3 and now it's more coll.
+Loock pleas.
