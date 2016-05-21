@@ -39,9 +39,9 @@ def draw():
             ry2=ry2-2
         if key == 'l' and ry2<=209:
             ry2=ry2+2  
-    if bx<=rx+20 and by<=ry+100 and bx>=rx and by>=ry:
+    if bx<=rx+28 and by<=ry+100 and bx>=rx and by>=ry:
         bxs=-bxs
-    if bx>=rx2 and by>=ry2 and bx<=rx2+20 and by<=ry2+100:
+    if bx>=rx2-6 and by>=ry2 and bx<=rx2 and by<=ry2+100:
         bxs=-bxs
     if bx<=19:
         bxs=0
@@ -56,4 +56,4 @@ def draw():
         bx=285
         by=150
     if by>=297:
-        bys=-bys  
+        bys=-bys
